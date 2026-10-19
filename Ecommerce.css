@@ -1,0 +1,314 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-main {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+}
+
+.search {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    width: 700px;
+    height: 30px;
+}
+
+.nav-menu-icon {
+    font-size: 1.5rem;
+}
+
+.nav-icon {
+    padding-right: 0.75rem;
+    opacity: 0.6;
+}
+
+.nav-icon:hover {
+    opacity: 1;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    margin: 1rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.nav-menu a:hover {
+    opacity: 1;
+}
+
+.banner {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    height: 20rem;
+}
+
+.banner-desc {
+    position: relative;
+    top: 2.5rem;
+    margin: 0px 0px 0px 72px;
+    background-image: url();
+    height: 15rem;
+    width: 250px;
+}
+
+.banner-title {
+    width: 15rem;
+    color: pink;
+}
+
+.banner-sub-title {
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.banner-price {
+    width: 10rem;
+}
+
+.banner-price span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.banner-btn {
+    width: 5.5rem;
+    height: 1.5rem;
+    font-weight: 500;
+    color: white;
+    /* border: 1px solid black; */
+    background-color: rgb(235, 97, 120);
+    border-radius: 0.25rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.listed-product {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    height: 4rem;
+}
+
+.product-card>a {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: rgb(213, 66, 90);
+}
+
+.product-sector {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.categories {
+    height: 100%;
+    width: 15%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.category-section {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.plus {
+    margin-left: 3rem;
+}
+
+.category-head {
+    margin-left: 1rem;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    height: 5%;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.arrival-card {
+    height: 4rem;
+    width: 9rem;
+    margin: 2rem;
+    border-radius: 0.15rem;
+    line-height: 1.25rem;
+}
+
+.trending-card {
+    height: 4rem;
+    width: 9rem;
+    margin: 2rem;
+    border-radius: 0.15rem;
+    line-height: 1.25rem;
+}
+
+.top-rate-card {
+    height: 4rem;
+    width: 9rem;
+    margin: 2rem;
+    border-radius: 0.15rem;
+    line-height: 1.25rem;
+}
+
+.arrival-card-category {
+    font-size: 0.8rem;
+    color: grey;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.trending-card-category {
+    font-size: 0.8rem;
+    color: grey;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.top-rate-card-category {
+    font-size: 0.8rem;
+    color: grey;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.all-card-price {
+    color: rgb(220, 65, 91);
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.best-section {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+}
+
+.best-section-card {
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    /* border: 1px solid black; */
+}
+
+.best-section-card>i {
+    line-height: 3rem;
+}
+
+.best-section-card>h4 {
+    line-height: 3rem;
+}
+
+.best-section-head {
+    margin-left: 0.5rem;
+    line-height: 2rem;
+    height: 2rem;
+    width: 8.5rem;
+}
+
+.special-offer {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    width: 100%;
+}
+
+.special-product {
+    margin-top: 5rem;
+    line-height: 1.5rem;
+}
+
+.special-title {
+    margin-left: 5rem;
+    height: 3rem;
+    width: 45rem;
+}
+
+.special-product-head {
+    height: 2rem;
+    width: 100%;
+}
+
+.special-product-price {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.special-product-btn {
+    width: 6rem;
+    height: 1.5rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(235, 97, 120);
+    border-radius: 0.25rem;
+}
+
+.new-product {
+    margin-left: 3rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
+
+.new-product-card {
+    height: 14rem;
+    width: 13rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid silver;
+    opacity: 1;
+}
+
+.new-product-card:hover {
+    
+}
+
+.Contact {
+    width: 100%;
+    height: 30rem;
+}
+
+.our-service {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
